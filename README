@@ -1,0 +1,79 @@
+# 📄 Sistema de Candidatura Front-End (HDEV)
+
+Este projeto é uma página web simples para candidatura a uma vaga de **Desenvolvedor Front-End voluntário**, com envio de formulário e página de confirmação.
+
+---
+
+## 🚀 Funcionalidades
+
+- 📋 Exibição da vaga com descrição completa  
+- 🎯 Botão para abrir formulário de candidatura  
+- 📧 Envio de e-mail utilizando FormSubmit  
+- ✅ Validação básica de e-mail com JavaScript  
+- 🎉 Página de confirmação após envio  
+- 🔁 Botão para voltar à página inicial  
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- FormSubmit (envio de formulário)
+
+---
+
+## 📂 Estrutura do projeto
+/projeto
+│
+├── index.html
+├── obrigado.html
+│
+├── /css
+│ ├── style.css
+│ └── obrigado.css
+│
+├── /js
+│ └── script.js
+│
+└── README.md
+
+---
+
+## ▶️ Como executar
+
+1. Baixe ou clone este repositório:
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+2. Abra no VS Code  
+
+3. Execute com Live Server ou abra:
+index.html
+
+---
+
+## 📌 Como funciona o envio
+
+O formulário utiliza o serviço FormSubmit, enviando os dados diretamente para um e-mail configurado:
+
+```html
+action="https://formsubmit.co/seu-email"
+
+## 🚀 Melhorias Futuras:
+
+🔒 Validação de e-mail mais robusta (Regex)
+📱 Melhor responsividade
+🎨 Melhor design (UI/UX)
+📨 Adicionar mais campos (nome, telefone, etc.)
+🌐 Publicar online (GitHub Pages)
+
+## 👨‍💻 Autor:
+
+Desenvolvido por Alexandre de Oliveira Barbosa Junior
+
+⚠️ Observações:
+
+. Projeto com fins educacionais
+. O envio depende do FormSubmit
+. Configure corretamente seu e-mail no formulário
